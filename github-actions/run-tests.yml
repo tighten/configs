@@ -29,12 +29,6 @@ jobs:
 
     - name: Generate App Key
       run: php artisan key:generate
-
-    - name: Run PHPCS
-      run: vendor/bin/phpcs
-
-    - name: Run Tlint
-      run: vendor/bin/tlint
         
     - name: Run PHPUnit tests
       run: vendor/bin/phpunit
