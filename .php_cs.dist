@@ -20,6 +20,7 @@ return Config::create()
         'braces' => ['allow_single_line_closure' => true],
         'concat_space' => ['spacing' => 'one'],
         'function_typehint_space' => true,
+        'lowercase_constants' => true,
         'lowercase_cast' => true,
         'lowercase_static_reference' => true,
         'native_function_casing' => true,
