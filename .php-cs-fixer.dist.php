@@ -8,8 +8,8 @@ $finder = Finder::create()
     ->exclude('storage')
     ->in(__DIR__);
 
-return Config::create()
-    ->setFinder($finder)
+$config = new PhpCsFixer\Config();
+return $config->setFinder($finder)
     ->setRules([
         'array_syntax' => ['syntax' => 'short'],
         'binary_operator_spaces' => [
@@ -20,7 +20,6 @@ return Config::create()
         'braces' => ['allow_single_line_closure' => true],
         'concat_space' => ['spacing' => 'one'],
         'function_typehint_space' => true,
-        'lowercase_constants' => true,
         'lowercase_cast' => true,
         'lowercase_static_reference' => true,
         'native_function_casing' => true,
@@ -40,6 +39,6 @@ return Config::create()
         'space_after_semicolon' => true,
         'ternary_operator_spaces' => true,
         'ternary_to_null_coalescing' => true,
-        'trailing_comma_in_multiline_array' => true,
+        'trailing_comma_in_multiline' => true,
         'whitespace_after_comma_in_array' => true,
     ]);
