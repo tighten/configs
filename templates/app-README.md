@@ -3,14 +3,14 @@
 
 About this project.
 
-### Requirements
+## Requirements
 
 * PHP >= 7.3 with [the extensions listed in the Laravel docs](https://laravel.com/docs/8.x/deployment#server-requirements)
 * A [supported relational database](http://laravel.com/docs/8.x/database#introduction) and corresponding PHP extension
 * [Composer](https://getcomposer.org/download/)
 * [NPM](https://nodejs.org/)
 
-### Installation
+## Installation
 
 1. (Optionally) [Fork this repository](https://help.github.com/articles/fork-a-repo/)
 1. Clone the repository locally
@@ -35,3 +35,19 @@ About this project.
     php -S localhost:8080 -t public
     ```
 1. Run tests with `php artisan test`.
+
+## Contributing
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+If you discover any security related issues, please email matt@tighten.co instead of using the issue tracker.
+
+## Credits
+- [Matt Stauffer](https://github.com/mattstauffer)
+- [All Contributors](https://github.com/tighten/configs/graphs/contributors)
+
+## Support us
+Tighten's whole-business approach transcends engineering, propelling software-driven businesses forward with clarity and confidence. You can learn more about us on our [web site](https://tighten.com/).
+
+## License
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
